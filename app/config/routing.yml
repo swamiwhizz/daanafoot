@@ -1,0 +1,4 @@
+daana_user:
+    resource: "@DaanaUserBundle/Resources/config/routing.yml"
+    prefix:   /
+

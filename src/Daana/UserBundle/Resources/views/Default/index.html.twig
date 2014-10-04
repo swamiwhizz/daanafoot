@@ -1,0 +1,18 @@
+
+{% block title %}Login - Danna Foot{% endblock %}
+{% set navbar_top_active = 'login' %}
+{% block content %}
+<h3 class='login-form-title'>Login</h3>
+    <form role="form" id="login" method="post" action="{{ path('daana_login_submit')}}">
+      <input type="hidden" name="loginTargetPath" value="" />
+        <label for="username">Email ID</label>
+        <input type="text" name="_username" class="form-control" id="username" placeholder="Email address or Mobile No." value="{{ last_username }}">
+        <label for="password">Password</label>
+        <input type="password" name="_password" class="form-control" id="password" placeholder="Password" value="">
+        <input type="submit" class="form-control btn btn-primary" name="login" value="Login" />
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
+

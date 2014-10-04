@@ -1,0 +1,7 @@
+parameters:
+#    daana_user.example.class: Daana\UserBundle\Example
+
+services:
+#    daana_user.example:
+#        class: %daana_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
