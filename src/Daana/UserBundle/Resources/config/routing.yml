@@ -3,5 +3,5 @@ daana_user_landing:
     defaults: { _controller: DaanaUserBundle:Default:index }
 
 daana_login_submit:
-    pattern:  /login_submit
+    pattern: /login_submit
     defaults: { _controller: DaanaUserBundle:Default:loginSubmit }
