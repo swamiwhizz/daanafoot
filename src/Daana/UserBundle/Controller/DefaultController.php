@@ -3,6 +3,8 @@
 namespace Daana\UserBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\component\httpfoundation\request;
+use Symfony\component\httpfoundation\response;
 
 class DefaultController extends Controller
 {
